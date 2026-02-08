@@ -53,3 +53,11 @@ bash script/run_analyzer.sh
 ```bash
 uv run visualizer/metrics_plotter.py --base-dir ../Tracer/build/ --benchmark-name test_case
 ```
+
+## License
+
+This project is licensed under the BSD 2-Clause License - see the [LICENSE](LICENSE) file for details.
+
+## Copyright
+
+Copyright (c) 2026, Chen Jie, Joungtao, Xuzheng Jiang. All rights reserved.
