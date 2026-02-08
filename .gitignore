@@ -1,0 +1,8 @@
+*.zip
+*.rar
+*.lnk
+
+Tracer/build/
+
+Analyzer/__pycache__/
+Analyzer/.venv/
