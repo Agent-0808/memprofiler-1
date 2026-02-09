@@ -9,6 +9,27 @@ memory tracing tool, used for offline debugging
 - GCC 12.3.0
 - Python >= 3.12
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/ibelie/memprofiler.git
+cd memprofiler
+```
+
+### Install Dependencies
+
+```bash
+sudo apt update
+sudo apt install -y cmake build-essential libdw-dev libelf-dev libzstd-dev libunwind-dev libboost-all-dev python3-pip
+```
+
+## Get Started
+
+```bash
+bash ./setup_env.sh
+bash ./run.sh
+```
+
 ## Tracer
 
 ### Build Tracer
@@ -35,7 +56,7 @@ Output tracedata will be in `Tracer/build/tracedata/test_case/`
 python -m pip install uv
 ```
 
-### Install Dependencies
+### Install Python Dependencies
 
 ```bash
 cd ../../Analyzer/
