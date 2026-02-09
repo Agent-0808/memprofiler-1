@@ -1,0 +1,11 @@
+tracedata
+__pycache__
+test.py
+tmp
+llm_output
+output.md
+tools/output
+*.lnk
+*.log
+visualizer/data
+.trae/

@@ -1,0 +1,12 @@
+[project]
+name = "Analyzer"
+version = "0.8.0"
+description = "The Analyzer"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "ttkbootstrap>=1.20.1",
+    "typed-argument-parser>=1.11.0",
+    "zstandard>=0.25.0",
+]
