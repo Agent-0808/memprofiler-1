@@ -1,6 +1,6 @@
-# memprofiler
+# MemProfiler
 
-memory tracing tool, used for offline debugging
+Memory tracing tool, used for offline debugging.
 
 ## Environment
 
@@ -25,12 +25,21 @@ sudo apt install -y cmake build-essential libdw-dev libelf-dev libzstd-dev libun
 
 ## Get Started
 
+Setup environment
+
 ```bash
 bash ./setup_env.sh
+```
+
+Run example `test_case`
+
+```bash
 bash ./run.sh
 ```
 
 ## Tracer
+
+For detailed usage, please refer to [Tracer/README.md](Tracer/README.md)
 
 ### Build Tracer
 
@@ -49,6 +58,8 @@ cd build/
 Output tracedata will be in `Tracer/build/tracedata/test_case/`
 
 ## Analyzer
+
+For detailed usage, please refer to [Analyzer/README.md](Analyzer/README.md)
 
 ### Install uv
 
