@@ -37,6 +37,10 @@ Run example `test_case`
 bash ./run.sh
 ```
 
+Click the Green outlined timestamps to see the corresponding memory layout.
+
+Note: If the memory layout doesn't show up, please check if the cursor is in the "Pan" mode. Only normal cursor can click the timestamps.
+
 ## Tracer
 
 For detailed usage, please refer to [Tracer/README.md](Tracer/README.md)
