@@ -1,6 +1,7 @@
 *.zip
 *.rar
 *.lnk
+*.pdn
 
 Tracer/build/
 
